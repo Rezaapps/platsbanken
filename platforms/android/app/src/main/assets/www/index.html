@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'  https://jobsearch.api.jobtechdev.se/ https://ssl.gstatic.com 'unsafe-inline' data:;
+                script-src 'self' code.jquery.com 'unsafe-inline';
+                style-src 'self' fonts.googleapis.com 'unsafe-inline';
+                font-src fonts.gstatic.com;
+                media-src *;
+                img-src 'self' https://www.arbetsformedlingen.se/ data: content:;
+            "
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <meta
+            name="viewport"
+            content="initial-scale=1, width=device-width, viewport-fit=cover"
+        />
+        <link rel="stylesheet" href="css/materialize.min.css" />
+        <link rel="stylesheet" href="./css/style.min.css" />
+        <title>Jobify</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Jobify</h1>
+        </div>
+        <script src="cordova.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="./dist/prod.min.js"></script>
+    </body>
+</html>

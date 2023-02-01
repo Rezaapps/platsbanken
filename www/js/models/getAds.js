@@ -2,7 +2,7 @@ import m from "mithril";
 
 const getAds = {
     api_key:
-        "YidceDA1XHhlOS1ceDljXHg5ZSZceDFmQlx4Y2NTXHg5NGkkXHgwMzNXWlx4YTFceGExaic",
+        "",
     url: "https://jobsearch.api.jobtechdev.se/",
     loc: "",
     job: "",
